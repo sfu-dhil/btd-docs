@@ -1,4 +1,4 @@
-.. _categoryfields:
+.. _category-field:
 
 Category Fields
 ---------------

@@ -26,7 +26,7 @@ The categories and roles allow data to be organized in the application
 and once it has been deposited to the digital repository. Hopefully
 the categories and roles will be reusable from project to project,
 although you can always add new categories or roles as needed. The
-fields in the categories and roles are described in :ref:`categoryfields`.
+fields in the categories and roles are described in :ref:`category-field`.
 
 Each of the categories and roles is accessible via the Browse menu in
 the top menu bar.

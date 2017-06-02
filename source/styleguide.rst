@@ -1,7 +1,7 @@
 .. _styleguide:
 
 Style Guide for Data Entry
-=========================
+==========================
 
 There are a few things that you will want to consider with regards to
 style/consistency for uploading data:

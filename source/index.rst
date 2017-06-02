@@ -20,8 +20,11 @@ User Manual
 
 .. toctree::
    :maxdepth: 1
-      
 
+   location
+   venue
+   venue-category
+   project     
 
 Administrator Manual
 --------------------
@@ -33,9 +36,11 @@ Administrator Manual
    category-fields
    metadata
    workflow
+   users
+   roles
               
-Develper Manual
----------------
+Developer Manual
+----------------
 
 .. toctree::
    :maxdepth: 1
