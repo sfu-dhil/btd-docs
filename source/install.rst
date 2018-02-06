@@ -77,10 +77,44 @@ Sometimes composer runs out of memory. If that happens, try this alternate.
 
   bower install
 
-10. Configure the web server. The application's `web/` directory must
+10. Download and install CkEditor. It is a nice GUI editor for web content. It 
+    isn't redistributable itself, so must be downloaded separately.
+
+.. code-block:: bash
+
+  ./bin/console ckeditor:install
+  ./bin/console assets:install web --symlink
+
+11. Configure the web server. The application's `web/` directory must
     be accessible to the world. Symfony provides `example
     configurations`_ for most server setups.
 
+12. The documentation module should be built seperately. You need the Sphinx 
+    to be already installed. Check the `DHIL Documentation Guide`_ for more 
+    information. 
+
+Navigate to the 'btd/docs' directory in the command line and type: 
+
+.. code-block:: bash
+
+  make html
+
+13. Start the web server you are using. A quick way to run the application is 
+    by using the built-in php server.
+
+.. note:: I've you've configured Apache to run the site, this step isn't 
+          necessary. Visit http://localhost/path/to/app_dev.php.
+
+.. code-block:: bash
+
+  php bin/console server:start
+
+Go to the localhost:8000 in your browser.
+
+At this point, the web interface should be up and running, and you should be 
+able to login by following the Login link in the top right menu bar.
+
+That should be it.
   
 At this point, the web interface should be up and running, and you should
 be able to login by following the Login link in the top right menu bar.
